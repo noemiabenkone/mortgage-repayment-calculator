@@ -20,8 +20,8 @@ export function MortgageCalculator() {
             />
           </div>
   
-          <div className="grid grid-cols-2 gap-4">
-            <div>
+          <div className="flex gap-4">
+            <div className="w-1/2">
               <p className="text-sm font-medium text-gray-700 mb-1">Mortgage Term</p>
               <input
                 type="text"
@@ -29,7 +29,7 @@ export function MortgageCalculator() {
                 className="w-full border border-gray-300 rounded px-3 py-2"
               />
             </div>
-            <div>
+            <div className="w-1/2">
               <p className="text-sm font-medium text-gray-700 mb-1">Interest Rate</p>
               <input
                 type="text"
@@ -39,7 +39,7 @@ export function MortgageCalculator() {
             </div>
           </div>
   
-          <div>
+          <div className="w-1/2">
             <p className="text-sm font-medium text-gray-700 mb-2">Mortgage Type</p>
             <div className="flex gap-6">
               <label className="flex items-center gap-2">
